@@ -6,14 +6,20 @@ Output: query object that can be unambiguously transformed into SQL
 
 Method: since we have both columns and data, let's try to match those in the question and see if it's enough to generate the object. The results are in the attached files. In the question strings, columns are marked with [ ], data values with { }.
 
-Full comparison, aggregation not taken into account
+**Full comparison, aggregation not taken into account**
+
 Matched: 5924
+
 Not matched: 3221
+
 Precision: 64.7785675232367%
 
-Only conditions are compared, select field is not taken into account
+**Only conditions are compared, select field is not taken into account**
+
 Conds matched: 6824
+
 Conds not matched: 2321
+
 Conds precision: 74.6200109349371%
 
 Method (column & metadata matching) advantages:
